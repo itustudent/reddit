@@ -21,7 +21,7 @@
 # Inc. All Rights Reserved.
 ###############################################################################
 
-if [ $# -lt 2 ]; then
+if [ $# -lt 4 ]; then
     echo "usage: $0 [pidfile] [command]" 1>&2
     exit 1
 fi
